@@ -1,10 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Container } from 'react-bootstrap'
+import Header from './components/header'
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-      <h1>Welcome to Faridshop</h1>
+      <Header />
+      <main className='py-3'>
+        <Container>
+          <h1>Welcome to Faridshop</h1>
+        </Container>
+      </main>
+      <Footer />
     </>
   );
 }
