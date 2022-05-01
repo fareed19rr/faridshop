@@ -1,7 +1,25 @@
 {
   "dependencies": {
+    "express": "^4.18.1",
     "react-router": "^6.3.0",
     "react-router-bootstrap": "^0.26.1",
     "react-router-dom": "^6.3.0"
-  }
+  },
+  "name": "faridshop",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fareed19rr/faridshop.git"
+  },
+  "author": "Farid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fareed19rr/faridshop/issues"
+  },
+  "homepage": "https://github.com/fareed19rr/faridshop#readme",
+  "description": ""
 }
